@@ -183,7 +183,7 @@ namespace EndpointManagerTest.Service
             service.DeleteEndpoint(endpoint.EndpointSerialNumber);
 
             _memoryCache.Verify(x => x.Remove(endpoint.EndpointSerialNumber), Times.Once);
-            _logger.Verify(logger => logger.LogInformation("Endpoint ABC12345 successfully deleted!"), Times.Once);
+            _logger.Verify(x => x.LogInformation("Endpoint ABC12345 successfully deleted!"), Times.Once);
             Assert.Pass();
         }
     }
