@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointManager", "EndpointManager\EndpointManager.csproj", "{FAF119E8-C946-4823-98A0-A5AD9F272028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointManagerTest", "EndpointManagerTest\EndpointManagerTest.csproj", "{54FE7F97-DCE6-40F1-ADB8-DB88532C96DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAF119E8-C946-4823-98A0-A5AD9F272028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF119E8-C946-4823-98A0-A5AD9F272028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF119E8-C946-4823-98A0-A5AD9F272028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF119E8-C946-4823-98A0-A5AD9F272028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FE7F97-DCE6-40F1-ADB8-DB88532C96DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FE7F97-DCE6-40F1-ADB8-DB88532C96DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FE7F97-DCE6-40F1-ADB8-DB88532C96DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FE7F97-DCE6-40F1-ADB8-DB88532C96DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18B2F3E2-DAA1-4D40-BE76-66C836AA8BB0}
+	EndGlobalSection
+EndGlobal
